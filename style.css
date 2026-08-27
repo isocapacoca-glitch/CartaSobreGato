@@ -1,0 +1,179 @@
+
+:root {
+    --rosa-fundo: #fce7f3;       
+    --rosa-card: #fbcfe8;        
+    --rosa-destaque: #f43f5e;     
+    --roxo-sour: #8b5cf6;         
+    --roxo-escuro: #4c1d95;       
+    --texto-escuro: #2e1065;      
+    --branco: #ffffff;
+}
+
+/* Fundo da página e Fonte */
+body {
+    background-color: var(--rosa-fundo); 
+    color: var(--texto-escuro);          
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;                  
+}
+
+
+.header-dupla {
+    background-color: var(--roxo-escuro);
+    color: var(--branco);
+    padding: 12px 20px;                   
+    font-size: 14px;                      
+}
+
+.integrantes {
+    color: #f472b6;
+    font-weight: 800;
+}
+
+
+.banner {
+    background: linear-gradient(135deg, #f43f5e, #8b5cf6);
+    padding: 50px 20px;
+    margin-bottom: 30px;                  
+    color: var(--branco);
+}
+
+.logo-container {
+    display: inline-block;
+    border: 4px solid var(--branco);
+    padding: 20px 40px;                   
+    border-radius: 20px;                  
+    background-color: rgba(76, 29, 149, 0.4);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.logo-texto {
+    font-family: 'Shrikhand', cursive;    
+    font-size: 42px;                      
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 0px var(--roxo-escuro);
+}
+
+.logo-sub {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;                       
+    padding: 0 20px;
+}
+
+.card {
+    background-color: var(--branco);     
+    padding: 30px;                        
+    border-radius: 24px;                  
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.15);
+    margin-bottom: 40px;                  
+}
+
+.card h2 {
+    color: var(--roxo-escuro);
+    font-size: 26px;
+    margin-top: 0;
+}
+
+/* 4. Imagem do Tema */
+.imagem-artistic {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 16px;                  
+    margin: 20px 0;                       
+    border: 4px solid var(--rosa-card);
+}
+
+.texto-tema {
+    font-size: 16px;                      
+    line-height: 1.8;
+}
+
+/* 5. Estilo da Seção dos Álbuns */
+.albuns-secao h2 {
+    color: var(--roxo-escuro);
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.albuns-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.album-card {
+    background-color: var(--branco);
+    border: 3px solid var(--roxo-sour);
+    border-radius: 20px;                  
+    padding: 25px;                       
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.tag-ano {
+    background-color: var(--roxo-sour);
+    color: var(--branco);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.album-card h3 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    color: var(--roxo-escuro);
+    margin: 15px 0 10px 0;
+}
+
+.hits-lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    font-weight: 600;
+    color: var(--roxo-escuro);
+}
+
+
+.btn-ouvir {
+    background-color: var(--roxo-sour); 
+    color: var(--branco);                
+    font-size: 15px;                     
+    font-weight: bold;
+    padding: 12px 28px;                   
+    border: none;
+    border-radius: 30px;       
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.btn-ouvir:hover {
+    background-color: var(--rosa-destaque); 
+    color: var(--branco);
+    transform: scale(1.08);                 
+    box-shadow: 0 5px 15px rgba(244, 63, 94, 0.4);
+}
+
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: var(--roxo-escuro);
+    color: var(--rosa-fundo);
+    font-size: 13px;
+}
